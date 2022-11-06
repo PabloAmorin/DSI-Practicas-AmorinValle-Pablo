@@ -1,0 +1,17 @@
+div {
+    border: 1px solid rgb(0, 0, 0);
+}
+h1 {
+    color: orangered;
+      text-align: center;
+    font-family: Arial Black;
+}
+table{
+    width:100%;
+}
+h2{
+    color: chocolate;
+}
+td{
+text-align: center;
+}
