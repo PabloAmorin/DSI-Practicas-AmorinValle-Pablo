@@ -1,5 +1,12 @@
 div {
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    background-color:darksalmon ;
+    border-radius: 25px;
+    padding: 20px;
+    margin-top:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+    margin-left:20px
 }
 h1 {
     color: orangered;
@@ -14,4 +21,38 @@ h2{
 }
 td{
 text-align: center;
+}
+div.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width:fit-content;
+  padding: 20px;
+  background-color:navajowhite;
+}
+div.navegacion{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    display: flex;
+    background-color:navajowhite;
+    justify-content: space-around;
+  }
+
+body{
+    background-color:black;
+}
+img.mapamundo{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+div.principal{
+    font-size: 200%;
+    font-family: cursive;
+}
+div.formas{
+    display: flex;
 }
