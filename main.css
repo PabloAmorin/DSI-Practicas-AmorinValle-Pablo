@@ -2,11 +2,11 @@ div {
     border: 1px solid rgb(255, 255, 255);
     background-color:darksalmon ;
     border-radius: 25px;
-    padding: 20px;
     margin-top:20px;
     margin-right:20px;
     margin-bottom:20px;
-    margin-left:20px
+    margin-left:20px;
+    min-width: 250px
 }
 h1 {
     color: orangered;
@@ -20,7 +20,11 @@ h2{
     color: chocolate;
 }
 td{
-text-align: center;
+  text-align: center;
+}
+a{
+  margin-right:10px;
+
 }
 div.sticky{
   position: -webkit-sticky;
@@ -38,21 +42,81 @@ div.navegacion{
     display: flex;
     background-color:navajowhite;
     justify-content: space-around;
-  }
-
+    width: 91.66%;;
+}
 body{
     background-color:black;
+    flex-wrap: wrap;
 }
+div.principal{
+  font-size: 200%;
+  font-family: cursive;
+}
+
+
+
 img.mapamundo{
-    display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
 }
-div.principal{
-    font-size: 200%;
-    font-family: cursive;
-}
+
 div.formas{
     display: flex;
 }
+
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  text-align: center;
+}
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="row"] {
+    width: 100%;
+    display: block;
+  }
+}
+.row {
+  display: inline;
+  border: 1px solid darksalmon;
+}
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+}
+
+.centro {
+  margin-top:20px;
+  margin-right:20px;
+  margin-bottom:20px;
+  margin-left:20px;
+
+}
+
+
+
